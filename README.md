@@ -33,7 +33,7 @@ import numpy as np
 
 img = np.zeros((350, 1400), dtype='uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img, 'RAJA R(CS)', (15, 200), font, 5, (255), 10, cv2.LINE_AA)
+cv2.putText(img, 'LokeshRahul', (15, 200), font, 5, (255), 10, cv2.LINE_AA)
 cv2.imshow('created_text', img)
 cv2.waitKey(0)
 ```
